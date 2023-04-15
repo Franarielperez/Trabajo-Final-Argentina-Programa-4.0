@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kuchao-Contacto</title>
+    <link rel="stylesheet" href="./Style/cs.css">
+    <script src="https://kit.fontawesome.com/eb496ab1a0.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+      <img class="logok" src="./logo.png" alt="Logo de Kuchao">
+        <nav>
+            <a href="index.html">Inicio</a>
+            <a href="sobrenosotros.html">Sobre Nosotros</a>
+            <a href="Productos.html">Productos</a>
+            <a href="Contacto.html">Contacto</a>
+        </nav>
+        <i class="bi bi-list"></i>
+    </header>
+    <main>
+        <h1>Ponte en contacto</h1>
+            <form id="formularioR" class="formulario">
+                <div class="inputContainer">
+                    <label for="nombre">Nombre</label>
+                    <input type="text" id="nombre" placeholder="Ingrese su nombre" required>
+                </div>
+                <div class="inputContainer">
+                    <label for="apellido">Apellido</label>
+                    <input type="text" id="apellido" placeholder="Ingrese su apellido" required>
+                </div>
+                <div class="inputContainer">
+                    <label for="">Email</label>
+                    <input type="email" id="email" placeholder="Ingrese su email" required>
+                </div>
+                    
+                <div class="inputContainer">
+                    <label for="telefono">Telefono</label>
+                    <input type="tel" id="tel" placeholder="Ingrese su telefono" required>
+                </div>
+                <div class="inputContainer">
+                        <label for="modelo">Modelo:</label>
+                        <select name="modelo" id="modelo">
+                            <option value="Buick Regal GNX 1985">Buick Regal GNX 1985</option>
+                    
+                            <option value="Chevrolet Corvette 2006">Chevrolet Corvette 2006</option>
+                    
+                            <option value="Chevrolet Impala Lowrider 1959">Chevrolet Impala Lowrider 1959</option>
+                    
+                            <option value="Fiat 500 Nuova 1959">Fiat 500 Nuova 1959</option>
+                    
+                            <option value="Ford Model T 1923">Ford Model T 1923</option>
+                    
+                            <option value="Hudson Homet 1951">Hudson Homet 1951</option>
+                    
+                            <option value="International Harvester L-170">International Harvester L-170</option>
+                    
+                            <option value="Mercury Club Coupé 1949">Mercury Club Coupé 1949</option>
+                    
+                            <option value="Playmouth Road Runner Superbird 1970">Playmouth Road Runner Superbird 1970</option>
+                    
+                            <option value="Porsche 911 Carrera">Porsche 911 Carrera</option>
+                    
+                            <option value="Volkswagen Transporter T1 1960">Volkswagen Transporter T1 1960</option>
+                    
+                            <option value="Willys MB Jeep 1942">Willys MB Jeep 1942</option>
+                        </select>
+                </div>
+                <div class="block">
+                    <textarea name="comentario" id="comentario" rows="6" placeholder="Comentario" required></textarea>
+                </div>
+                <div  class="btnSubmit">
+                <input type="submit" value="Enviar" class="btnEnviar" id="btn-sweet">
+                </div>
+            </form>
+        <div class="contenedorusuarios">
+        </div>
+        <a href="#">
+            <i class="bi bi-caret-up-fill"></i>
+        </a>
+    </main>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script src="./script/js.js"></script>
+<footer class="pie-pagina">
+        
+    <div class="grupo-1">
+        <div class="box">
+            <figure>
+                <a href="#">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHF34kfs8RToIomHN38lRXsbvlDKV0vcHyfA&usqp=CAU" alt="Logo de Kuchao">
+                </a>
+            </figure>
+        </div>
+        <div class="box">
+            <h2>SOBRE NOSOTROS</h2> 
+            <p>Kuchao es una empresa de venta de autos que ofrece una amplia gama de opciones de vehículos y financiamiento, 
+                con un equipo altamente capacitado y disponible para ayudar a sus clientes. 
+                cuyo objetivo es brindar una experiencia de compra satisfactoria y sin preocupaciones.</p>
+            
+        </div>
+        <div class="box">
+            <h2>REDES</h2>
+            <div class="red-social">
+                <a href="https://github.com/Enzoo99/Venta-de-autos" target="_blank" class="fa fa-github"></a>
+                <a href="https://www.instagram.com/lightningmcqueen2017/?hl=en" target="_blank" class="fa fa-instagram"></a>
+
+                
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="footer-cta pt-5 pb-5">
+          <div class="row" style="display: flex; justify-content: space-between;">
+            <div class="contactosfooter">
+
+                <div class="dir">
+                  <div class="single-cta">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <div class="cta-text">
+                      <h4>Direccion</h4>
+                    <span>20 Rte 66, Anaheim, CA 92802, USA</span>
+                  </div>
+                  <H1>   </H1>
+                </div>
+              </div>
+        
+              <div class="contacto">
+                <div class="single-cta">
+                  <i class="fas fa-phone"></i>
+                  <div class="cta-text">
+                    <h4>Numero para consultas</h4>
+                        <span>+54 9 11 2345-6789</span>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="mail">
+                <div class="single-cta">
+                  <i class="far fa-envelope-open"></i>
+                  <div class="cta-text">
+                    <h4>Mail de contacto</h4>
+                    <span>consultas_generales@kuchao.com</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    <div class="grupo-2">
+        <small>© 2023 <strong>Kuchao</strong> - Todos los Derechos Reservados.</small>
+    </div>
+
+</footer>
+</html>
